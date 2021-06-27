@@ -1,0 +1,40 @@
+
+.Clock{
+  position: relative;
+}
+
+.clock-img img{
+    display: block;
+    margin: auto;
+}
+
+.hand {
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  .hour {
+    position: absolute;
+    transform-origin: bottom;
+    width: 8px;
+    height: 28%;
+    background-color: #000;
+  }
+
+  .minute {
+    position: absolute;
+    transform-origin: bottom;
+    width: 5px;
+    height: 38%;
+    background-color: #000;
+  }
+
+  .second {
+    position: absolute;
+    transform-origin: bottom;
+    width: 3px;
+    height: 40%;
+    background-color: #ff0000;
+  }
+
